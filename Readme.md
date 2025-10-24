@@ -95,14 +95,11 @@ cd Phoneix2
 
 chmod +x Phoneix2.sh
 
+sudo ./Phoenix2.sh
+
+
 ```
 
 <img width="1696" height="770" alt="image" src="https://github.com/user-attachments/assets/4ed2d472-a9fc-4c5a-be1b-2e25714ea6ca" />
 
 <img width="1717" height="882" alt="image" src="https://github.com/user-attachments/assets/c7dae94e-b725-4025-9ed6-1007ee106521" />
-
-
-
-
-sudo ./Phoenix2.sh
-
