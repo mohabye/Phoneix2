@@ -92,4 +92,62 @@ git clone https://github.com/mohabye/Phoneix2.git
 cd Phoneix2
 
 # Make executable
+
 chmod +x Phoneix2.sh
+
+sudo ./Phoenix2.sh
+Available Modules
+
+process: Running processes, PIDs, resource usage
+
+network: Connections, listening ports, routing tables, interfaces
+
+dns: DNS queries and resolution history
+
+users: Account info, login history, currently logged-in users
+
+filesystem: SUID/SGID binaries, recent file modifications
+
+services: SystemD services, SysV init scripts
+
+logs: Authentication and system logs
+
+browser: Firefox, Chrome, Chromium history locations
+
+ssh: Authorized keys, known hosts, SSH config
+
+persistence: Cron jobs, SystemD timers, startup scripts
+
+📂 Output Structure
+
+The tool generates a structured output directory labelled phoenix_output_YYYYMMDD_HHMMSS/ containing files such as:
+
+إظهار التفاصيل دائمًا
+phoenix_output_YYYYMMDD_HHMMSS/
+├── process_info.csv
+├── process_file_operations.csv
+├── network_connections.csv
+├── network_routes.csv
+├── network_interfaces.csv
+├── network_listening_ports.csv
+├── dns_queries.csv
+├── dns_configuration.csv
+├── dns_cache.csv
+├── users_detailed.csv
+├── users_login_activity.csv
+├── users_file_operations.csv
+├── users_currently_logged.csv
+├── users_failed_logins.csv
+├── filesystem_suid.csv
+├── filesystem_recent_modifications.csv
+├── services.csv
+├── logs_authentication.csv
+├── logs_system.csv
+├── browser_history.csv
+├── ssh_authorized_keys.csv
+├── ssh_known_hosts.csv
+├── ssh_config.csv
+├── persistence_cron.csv
+├── persistence_systemd_timers.csv
+├── persistence_startup.csv
+└── phoenix_analyzer.log
